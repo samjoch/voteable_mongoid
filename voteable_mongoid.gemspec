@@ -33,20 +33,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<voteable_mongoid>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_runtime_dependency(%q<mongoid>, ["~> 2.0.0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
     else
       s.add_dependency(%q<voteable_mongoid>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<mongoid>, ["~> 2.0.0"])
       s.add_dependency(%q<rspec>, [">= 0"])
     end
   else
     s.add_dependency(%q<voteable_mongoid>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<mongoid>, ["~> 2.0.0"])
     s.add_dependency(%q<rspec>, [">= 0"])
   end
 end
